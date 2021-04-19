@@ -10,7 +10,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/c">
+        android:background="@drawable/l">
 
         <EditText
             android:id="@+id/txt_signup_email"
@@ -19,7 +19,7 @@
             android:layout_marginTop="48dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -33,10 +33,10 @@
             android:layout_marginLeft="32dp"
             android:layout_marginBottom="10dp"
 
-            android:text="@string/txt_email"
+            android:text="@string/email"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#020202"
-            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/txt_signup_email"
             app:layout_constraintStart_toStartOf="parent" />
@@ -46,8 +46,8 @@
             android:layout_width="347dp"
             android:layout_height="61dp"
             android:layout_marginTop="48dp"
-            android:text="@string/btn_confirm"
-            android:textColor="#4B617E"
+            android:text="@string/confirm"
+            android:textColor="#F3F5F8"
             android:textSize="24sp"
             app:backgroundTint="#69D3E8"
             app:iconTint="#C11717"
@@ -62,7 +62,7 @@
             android:layout_marginTop="48dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -73,11 +73,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/txt_address"
+            android:text="@string/address"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#020202"
+            android:textColor="@color/white"
 
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/txt_signup_address"
             app:layout_constraintEnd_toEndOf="parent"
@@ -92,7 +92,7 @@
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
@@ -105,11 +105,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/txt_gender"
+            android:text="@string/gender"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#000000"
+            android:textColor="@color/white"
 
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/radioGroup"
             app:layout_constraintEnd_toEndOf="parent"
@@ -121,11 +121,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/txt_phonenumber"
+            android:text="@string/phonenumber"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#000000"
+            android:textColor="@color/white"
 
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/txt_signup_phonenumber"
             app:layout_constraintEnd_toEndOf="parent"
@@ -139,7 +139,7 @@
             android:layout_marginTop="48dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -150,11 +150,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/txt_password"
+            android:text="@string/password"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#000000"
+            android:textColor="@color/white"
 
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/txt_signup_password"
             app:layout_constraintEnd_toEndOf="parent"
@@ -166,11 +166,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="@string/txt_dob"
+            android:text="@string/dob"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="#000000"
+            android:textColor="@color/white"
 
-            android:textSize="18sp"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/txt_signup_dob"
             app:layout_constraintEnd_toEndOf="parent"
@@ -190,23 +190,20 @@
 
             <RadioButton
                 android:id="@+id/radioBtn_Male"
-                android:layout_width="124dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_gender_male"
-                android:textColor="#000000"
-
-                android:textSize="18sp" />
-
+                android:text="@string/gender_male"
+                android:textColor="@color/white"
+                android:paddingRight="80dp"
+                android:textSize="18dp" />
             <RadioButton
                 android:id="@+id/radioBtn_Female"
-                android:layout_width="113dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/txt_gender_female"
-                android:textColor="#000000"
-                android:textSize="18sp" />
-
+                android:text="@string/gender_female"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
         </RadioGroup>
-
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
@@ -214,10 +211,10 @@
             android:layout_marginStart="36dp"
             android:layout_marginLeft="36dp"
             android:layout_marginBottom="10dp"
-            android:text="@string/txt_login"
+            android:text="@string/login"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/black"
-            android:textSize="18sp"
+            android:textColor="#F8F8F8"
+            android:textSize="18dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/txt_usernamesignup"
             app:layout_constraintStart_toStartOf="parent" />
@@ -230,7 +227,7 @@
             android:ems="10"
             android:inputType="textPersonName"
 
-            android:textColor="#020202"
+            android:textColor="@color/white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -244,7 +241,7 @@
             android:ems="10"
             android:importantForAutofill="no"
             android:inputType="textPersonName"
-            android:textColor="#000000"
+            android:textColor="@color/white"
             android:textSize="24sp"
             android:visibility="visible"
             app:layout_constraintEnd_toEndOf="parent"
@@ -255,17 +252,12 @@
         <TextView
             android:id="@+id/txt_signup_title"
             android:layout_width="match_parent"
-            android:layout_height="53dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:background="#73CFFE"
-            android:fontFamily="@font/abhaya_libre_extrabold"
+            android:fontFamily="@font/yellowtail"
             android:gravity="center"
-
-            android:shadowColor="#000000"
-            android:shadowDx="2"
-            android:shadowDy="2"
-            android:shadowRadius="3"
-            android:text="@string/txt_signup"
+            android:text="@string/signup"
             android:textAlignment="center"
             android:textAllCaps="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"

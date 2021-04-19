@@ -15,13 +15,13 @@
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:hint="@string/txt_name"
+            android:hint="@string/name"
             android:layout_marginTop="10dp"/>
         <EditText
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:hint="@string/txt_name"
+            android:hint="@string/name"
             android:layout_marginTop="10dp"/>
 
         <LinearLayout
@@ -43,7 +43,7 @@
                     android:drawableLeft="@drawable/calendar"
                     android:drawablePadding="3dp"
                     android:paddingHorizontal="2dp"
-                    android:text="@string/txt_daystart"
+                    android:text="@string/daystart"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -68,7 +68,7 @@
                     android:drawableLeft="@drawable/group"
                     android:drawablePadding="3dp"
                     android:paddingHorizontal="2dp"
-                    android:text="@string/txt_amount"
+                    android:text="@string/amount"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 

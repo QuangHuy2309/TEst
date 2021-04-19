@@ -10,7 +10,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="@string/txt_gender"
+        android:text="@string/gender"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/radioGroup"
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="12dp"
-        android:text="@string/txt_password"
+        android:text="@string/password"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txt_signup_password"
@@ -37,7 +37,7 @@
         android:layout_height="52dp"
         android:layout_marginTop="128dp"
         android:ems="10"
-        android:hint="@string/txt_login"
+        android:hint="@string/login"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textSize="24sp"
@@ -53,7 +53,7 @@
         android:layout_height="52dp"
         android:layout_marginTop="56dp"
         android:ems="10"
-        android:hint="@string/txt_login"
+        android:hint="@string/login"
         android:importantForAutofill="no"
         android:inputType="textPersonName"
         android:textSize="24sp"
@@ -70,7 +70,7 @@
         android:layout_marginTop="48dp"
         android:fontFamily="@font/abhaya_libre_extrabold"
         android:gravity="center"
-        android:text="@string/txt_signup"
+        android:text="@string/signup"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
@@ -89,7 +89,7 @@
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
         android:layout_marginBottom="20dp"
-        android:text="@string/txt_login"
+        android:text="@string/login"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txt_usernamesignup"
@@ -109,13 +109,13 @@
             android:id="@+id/radioBtn_Male"
             android:layout_width="124dp"
             android:layout_height="wrap_content"
-            android:text="@string/txt_gender_male" />
+            android:text="@string/gender_male" />
 
         <RadioButton
             android:id="@+id/radioBtn_Female"
             android:layout_width="113dp"
             android:layout_height="wrap_content"
-            android:text="@string/txt_gender_female" />
+            android:text="@string/gender_female" />
 
         <DatePicker
             android:id="@+id/datePicker"
