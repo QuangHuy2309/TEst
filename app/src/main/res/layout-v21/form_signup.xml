@@ -13,6 +13,34 @@
         android:background="@drawable/l">
 
         <EditText
+            android:id="@+id/txt_signup_hoten"
+            android:layout_width="338dp"
+            android:layout_height="52dp"
+            android:layout_marginTop="48dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:visibility="visible"
+            app:layout_constraintTop_toBottomOf="@+id/txt_signup_password"
+            tools:layout_editor_absoluteX="36dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/txt_signup_hoten"
+            tools:layout_editor_absoluteX="38dp" />
+
+        <EditText
             android:id="@+id/txt_signup_email"
             android:layout_width="338dp"
             android:layout_height="52dp"
@@ -183,19 +211,18 @@
             android:layout_height="46dp"
             android:layout_marginTop="48dp"
             android:orientation="horizontal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txt_signup_password">
+            app:layout_constraintTop_toBottomOf="@+id/txt_signup_hoten"
+            tools:layout_editor_absoluteX="101dp">
 
             <RadioButton
                 android:id="@+id/radioBtn_Male"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingRight="80dp"
                 android:text="@string/gender_male"
                 android:textColor="@color/white"
-                android:paddingRight="80dp"
                 android:textSize="18dp" />
+
             <RadioButton
                 android:id="@+id/radioBtn_Female"
                 android:layout_width="wrap_content"
@@ -204,6 +231,7 @@
                 android:textColor="@color/white"
                 android:textSize="18dp" />
         </RadioGroup>
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
